@@ -2,7 +2,25 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackAsTool>true</PackAsTool>
+    <ToolCommandName>filelocker</ToolCommandName>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <IsPackable>true</IsPackable>
+    <PackageVersion>1.0.0</PackageVersion>
+    <PackageId>FileLocker</PackageId>
+    <Authors>Jonathan LEI</Authors>
+    <Description>A simple command-line tool for encrypting/decrypting files</Description>
+    <Copyright>Copyright © Jonathan LEI 2020</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/xJonathanLEI/FileLocker</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageProjectUrl>https://github.com/xJonathanLEI/FileLocker</PackageProjectUrl>
   </PropertyGroup>
 
 </Project>
